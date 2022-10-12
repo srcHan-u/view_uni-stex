@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220929135240">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="logo">
+					<img src="img/svg/logo.svg" alt="logo" class="logo__image">
+				</a>
+				<div class="header__inner">
+					<ul class="header__actions">
+						<li class="header__action">
+							<button type="button" class="header__button" data-popup="#popupWarning">LOGIN</button>
+						</li>
+						<li class="header__action">
+							<button type="button" class="header__button header__button_focus" data-popup="#popup">
+								REGISTRATION
+							</button>
+						</li>
+					</ul>
+					<button type="button" class="header__burger-icon" data-popup="#popup">
+						<img src="img/svg/burger-icon.svg" alt="image">
+					</button>
+					<div data-spollers class="switch-lang">
+						<div class="switch-lang__body">
+							<button type="button" data-spoller class="switch-lang__title _icon-arrow">
+								en
+							</button>
+							<ul class="switch-lang__list">
+								<li class="switch-lang__item" data-popup="#popupWarning">
+									<a href="#" class="switch-lang__lang">ru</a>
+								</li>
+								<li class="switch-lang__item" data-popup="#popupWarning">
+									<a href="#" class="switch-lang__lang">ua</a>
+								</li>
+								<li class="switch-lang__item" data-popup="#popupWarning">
+									<a href="#" class="switch-lang__lang">en</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__first-screen first-screen">
+				<div class="first-screen__container">
+					<div class="first-screen__background-block background-block">
+						<img src="img/home/main-screen-img_1.png" alt="image" class="background-block__item-image background-block__item-image_1 anim animate__tilt-in-bl_1" data-wow-duration="1s" data-wow-delay="0.5s">
+						<div class="background-block__item-shadow background-block__item-shadow_1"></div>
+					</div>
+					<div class="first-screen__zero-block zero-block">
+						<div class="zero-block__element">
+							0
+							<span>%</span>
+						</div>
+						<div class="zero-block__inner">
+							<h1 class="zero-block__title title animate__text-flicker-out-glow">
+								zero <br>
+								deposit fee
+							</h1>
+							<button type="button" class="zero-block__button button-primary" data-popup="#popup">
+								<span class="button-primary__text">START</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="page__promo promo">
+				<div class="promo__container">
+					<div class="promo__background-block background-block">
+						<div class="background-block__item-shadow background-block__item-shadow_2"></div>
+					</div>
+					<div class="promo__content">
+						<p class="promo__description">
+							Estonian Financial Intelligence Unit <br>
+							(FIU, or RAB in Estonian) is responsible for overseeing crypto
+							<br>
+							activities as well as issuing crypto licenses.
+						</p>
+						<button type="button" class="promo__button button-primary" data-popup="#popup">
+							<span class="button-primary__text">TRADING</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<section class="page__products products">
+				<div class="products__top top-products">
+					<h1 class="top-products__heading heading-2 anim animate__focus-in-expand" data-wow-duration="0.8s" data-wow-delay="0.5s">
+						PRODUCTS
+					</h1>
+					<div class="top-products__container">
+						<ul class="top-products__list">
+							<!-- todo fd finish the product section -->
+							<li class="top-products__item anim animate__slide-in-blurred-top" data-wow-duration="0.8s" data-wow-delay="0.5s">
+								<article class="top-products__card card-product">
+									<img class="card-product__image" data-src="img/svg/section-4-svg_1.svg" alt="image">
+									<h2 class="card-product__heading">Spot platform</h2>
+									<ul class="card-product__list">
+										<li class="card-product__item">Customizable interface</li>
+										<li class="card-product__item">
+											Several types of orders
+										</li>
+										<li class="card-product__item">Professional charts</li>
+										<li class="card-product__item">Powerful match engine</li>
+									</ul>
+								</article>
+							</li>
+							<li class="top-products__item anim animate__slide-in-blurred-top" data-wow-duration="0.8s" data-wow-delay="0.7s">
+								<article class="top-products__card card-product">
+									<img class="card-product__image" data-src="img/svg/section-4-svg_2.svg" alt="image">
+									<h2 class="card-product__heading">Fast Exchange</h2>
+									<ul class="card-product__list">
+										<li class="card-product__item">
+											Quick purchase/sale of cryptocurrencies in 1 click.
+										</li>
+										<li class="card-product__item">
+											Exchange cryptocurrencies and provide security
+											automatically at a fast rate.
+										</li>
+									</ul>
+								</article>
+							</li>
+							<li class="top-products__item anim animate__slide-in-blurred-top" data-wow-duration="0.8s" data-wow-delay="0.9s">
+								<article class="top-products__card card-product">
+									<img class="card-product__image" data-src="img/svg/section-4-svg_3.svg" alt="image">
+									<h2 class="card-product__heading">Crypto Wallet</h2>
+									<ul class="card-product__list">
+										<li class="card-product__item">
+											All transactions in one cryptocurrency wallet
+										</li>
+										<li class="card-product__item">
+											Create your free wallet on UNI Stex to store and
+											transfer cryptocurrencies, as well as fiat funds.
+										</li>
+									</ul>
+								</article>
+							</li>
+							<li class="top-products__item anim animate__slide-in-blurred-top" data-wow-duration="0.8s" data-wow-delay="1.1s">
+								<article class="top-products__card card-product">
+									<img class="card-product__image" data-src="img/svg/section-4-svg_4.svg" alt="image">
+									<h2 class="card-product__heading">
+										Non-custodial exchanger
+									</h2>
+									<ul class="card-product__list">
+										<li class="card-product__item">
+											Non-custodial exchanger (immediately hang up on the
+											partition).
+										</li>
+										<li class="card-product__item">
+											Designed for fast and anonymous exchange of
+											cryptocurrencies with fiat funds.
+										</li>
+									</ul>
+								</article>
+							</li>
+							<li class="top-products__item anim animate__slide-in-blurred-top" data-wow-duration="0.8s" data-wow-delay="1.3s">
+								<article class="top-products__card card-product">
+									<img class="card-product__image" data-src="img/svg/section-4-svg_5.svg" alt="image">
+									<h2 class="card-product__heading">
+										Affiliate <br>
+										Program
+									</h2>
+									<ul class="card-product__list">
+										<li class="card-product__item">
+											Become a partner and get profit
+										</li>
+										<li class="card-product__item">
+											Invite friends and get up to 60% <br>
+											of the amount of commissions paid <br>
+											by them for trading.
+										</li>
+									</ul>
+								</article>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="products__center center-products">
+					<div class="center-products__container">
+						<div class="center-products__body">
+							<a href="#" class="center-products__logo logo">
+								<img src="img/svg/logo.svg" alt="logo" class="logo__image">
+							</a>
+							<p class="center-products__text">
+								Multifunctional blockchain management platform and trading of
+								crypto and digital assets, designed to:
+							</p>
+							<ul class="center-products__list">
+								<li class="center-products__item">
+									<span class="center-products__item-text">owners of any cryptocurrencies</span>
+								</li>
+								<li class="center-products__item">
+									<span class="center-products__item-text">projects that issue their own cryptocurrency or tokens
+										for business</span>
+								</li>
+								<li class="center-products__item">
+									<span class="center-products__item-text">commercial organizations wishing to carry out
+										measurements in cryptocurrency</span>
+								</li>
+								<li class="center-products__item">
+									<span class="center-products__item-text">Cryptocurrency exchange <br>
+										to fiat and back</span>
+								</li>
+								<li class="center-products__item">
+									<span class="center-products__item-text">buying and selling cryptocurrencies</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="products__bottom bottom-products">
+					<div class="bottom-products__container">
+						<h2 class="bottom-products__heading">
+							Buy and sell Bitcoin <br>
+							on the UNI Stex crypto exchange
+						</h2>
+						<p class="bottom-products__text">
+							<span class="bottom-products__text-bold"> UNI Stex</span>
+							is a convenient trading platform with natural and contact
+							trading instruments, <br>
+							with help, you can easily trade and exchange cryptocurrency,
+							<br>
+							and also convert it to fiat. <br>
+							<span class="bottom-products__text-bold">The main partner in Moldova is BPay</span>
+						</p>
+						<button type="button" class="bottom-products__button button-primary" data-popup="#popup">
+							<span class="button-primary__text">REGISTRATION</span>
+						</button>
+					</div>
+				</div>
+			</section>
+			<div class="page__separator separator">
+				<div class="separator__container">
+					<div class="separator__content">
+						<div class="separator__inner">
+							<img class="separator__image anim animate__fadeInBottomLeft" src="img/home/separator-image_1.png" alt="image" data-wow-duration="1s" data-wow-delay="0.5s">
+							<div class="separator__element">0%</div>
+						</div>
+						<h2 class="separator__title animate__text-flicker-out-glow">
+							deposit <br>
+							fee
+						</h2>
+						<button type="button" class="separator__button button-primary" data-popup="#popup">
+							<span class="button-primary__text">BUY BITCOIN</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<div class="partners__bg-element background-element">
+						<div class="background-element__body">
+							<div class="background-element__item">
+								<div class="background-element__item-shadow background-element__item-shadow_4"></div>
+							</div>
+						</div>
+					</div>
+					<h2 class="partners__heading heading-2 anim animate__focus-in-expand" data-wow-duration="1s" data-wow-delay="1s">
+						PARTNERS
+					</h2>
+					<div class="partners__body">
+						<ul class="partners__list">
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_1.png" alt="image">
+							</li>
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_2.png" alt="image">
+							</li>
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_3.png" alt="image">
+							</li>
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_4.png" alt="image">
+							</li>
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_5.png" alt="image">
+							</li>
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_6.png" alt="image">
+							</li>
+							<li class="partners__item">
+								<img class="partners__image" data-src="img/home/partner-image_7.png" alt="image">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- 
+            todo fd change from section to div;
+            make background and shadow;
+            rename 
+         -->
+			<div class="page__benefits benefits">
+				<div class="benefits__container">
+					<div class="benefits__background-block background-block">
+						<div class="background-block__item-shadow background-block__item-shadow_3"></div>
+						<div class="background-block__item-shape background-block__item-shape_1 anim animate__hinge" data-wow-duration="3s" data-wow-delay="1s">
+							5
+						</div>
+					</div>
+					<div class="benefits__content">
+						<h2 class="benefits__heading">
+							ADJUSTABLE <span>EXCHANGE</span>
+						</h2>
+						<ul class="benefits__list">
+							<li class="benefits__item">
+								MODERN TRADING <span>TERMINAL</span>
+							</li>
+							<li class="benefits__item"><span>0% DEPOSIT FEES</span></li>
+							<li class="benefits__item">
+								MULTILEVEL <span>REFERRAL PROGRAM</span>
+							</li>
+							<li class="benefits__item">
+								MODERN TRADING <span>TERMINAL</span>
+							</li>
+							<li class="benefits__item">
+								<span>FAST</span> CRYPTOCURRENCY <br>
+								EXCHANGE <span>WITHOUT REGISTRATION</span>
+							</li>
+							<li class="benefits__item"><span>27/7 SUPPORT</span></li>
+						</ul>
+						<button type="button" class="benefits__button button-primary" data-popup="#popup">
+							<span class="button-primary__text">TRADING</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="page__download download">
+				<div class="download__container">
+					<div class="download__background-block background-block">
+						<div class="background-block__item-shadow background-block__item-shadow_4"></div>
+						<div class="background-block__item-shape background-block__item-shape_2"></div>
+					</div>
+					<div class="download__body">
+						<img class="download__image anim animate__zoomIn" data-src="img/home/section-9-img_1.png" alt="image" data-wow-duration="1s" data-wow-delay="1s">
+						<div class="download__box">
+							<h2 class="download__heading">Trade Anytime Anywhere</h2>
+							<p class="download__description">
+								All UNI Stex services are always with you. Powerful platform
+								for cryptocurrency trading for those who trade to make money.
+								<br>
+								Download UNI Stex Cryptocurrency Mobile App Today.
+							</p>
+							<button type="button" class="download__button _icon-app-store" data-popup="#popupWarning">
+								<span>Download on the</span> App Store
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__about about">
+				<div class="about__container">
+					<div class="about__content">
+						<h3 class="about__heading">Affiliate program</h3>
+						<p class="about__description">
+							With the help of the UNI Stex service, you can not only
+							profitably exchange e-currency, but also make good money on it
+							<br>
+							(Affiliate program) <br>
+							You can receive the payment in any way convenient for you
+							presented in your personal account UNI Stex.
+						</p>
+						<button type="button" class="about__button button-primary" data-popup="#popupWarning">
+							<span class="button-primary__text">LINK</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			<section class="page__faq faq">
+				<div class="faq__container">
+					<div class="faq__body">
+						<h2 class="faq__heading">FAQ</h2>
+						<div data-spollers class="faq__spollers faq-spollers">
+							<div class="faq-spollers__item anim animate__fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+								<button type="button" data-spoller class="faq-spollers__title _icon-arrow">
+									2FA code error
+								</button>
+								<div class="faq-spollers__body">
+									<p class="faq-spollers__description">
+										If you see '2FA Code Error' when entering the Google
+										authentication code, follow the instructions below to
+										solve the problem:
+										<br>
+										Synchronize the time (clock) on your mobile phone (the
+										Google Authenticator app) and the computer (from which you
+										are trying to log in).
+									</p>
+								</div>
+							</div>
+							<div class="faq-spollers__item anim animate__fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.8s">
+								<button type="button" data-spoller class="faq-spollers__title _icon-arrow">
+									How to register an account on the website UNI Stex
+								</button>
+								<div class="faq-spollers__body">
+									<p class="faq-spollers__description">
+										If you see '2FA Code Error' when entering the Google
+										authentication code, follow the instructions below to
+										solve the problem:
+										<br>
+										Synchronize the time (clock) on your mobile phone (the
+										Google Authenticator app) and the computer (from which you
+										are trying to log in).
+									</p>
+								</div>
+							</div>
+							<div class="faq-spollers__item anim animate__fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1.1s">
+								<button type="button" data-spoller class="faq-spollers__title _icon-arrow">
+									How to change the password of your account (Personal
+									Account)
+								</button>
+								<div class="faq-spollers__body">
+									<p class="faq-spollers__description">
+										If you see '2FA Code Error' when entering the Google
+										authentication code, follow the instructions below to
+										solve the problem:
+										<br>
+										Synchronize the time (clock) on your mobile phone (the
+										Google Authenticator app) and the computer (from which you
+										are trying to log in).
+									</p>
+								</div>
+							</div>
+							<div class="faq-spollers__item anim animate__fadeInRightBig" data-wow-duration="1s" data-wow-delay="1.4s">
+								<button type="button" data-spoller class="faq-spollers__title _icon-arrow">
+									How to register an account on the website UNI Stex
+								</button>
+								<div class="faq-spollers__body">
+									<p class="faq-spollers__description">
+										If you see '2FA Code Error' when entering the Google
+										authentication code, follow the instructions below to
+										solve the problem:
+										<br>
+										Synchronize the time (clock) on your mobile phone (the
+										Google Authenticator app) and the computer (from which you
+										are trying to log in).
+									</p>
+								</div>
+							</div>
+							<div class="faq-spollers__item anim animate__fadeInLeftBig" data-wow-duration="1s" data-wow-delay="1.7s">
+								<button type="button" data-spoller class="faq-spollers__title _icon-arrow">
+									How to change the password of your account (Personal
+									Account)
+								</button>
+								<div class="faq-spollers__body">
+									<p class="faq-spollers__description">
+										If you see '2FA Code Error' when entering the Google
+										authentication code, follow the instructions below to
+										solve the problem:
+										<br>
+										Synchronize the time (clock) on your mobile phone (the
+										Google Authenticator app) and the computer (from which you
+										are trying to log in).
+									</p>
+								</div>
+							</div>
+							<div class="faq-spollers__item anim animate__fadeInRightBig" data-wow-duration="1s" data-wow-delay="2s">
+								<button type="button" data-spoller class="faq-spollers__title _icon-arrow">
+									2FA code error
+								</button>
+								<div class="faq-spollers__body">
+									<p class="faq-spollers__description">
+										If you see '2FA Code Error' when entering the Google
+										authentication code, follow the instructions below to
+										solve the problem:
+										<br>
+										Synchronize the time (clock) on your mobile phone (the
+										Google Authenticator app) and the computer (from which you
+										are trying to log in).
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__inner footer__inner_direction_column">
+					<a href="#" class="footer__logo logo">
+						<img src="img/svg/logo.svg" alt="logo" class="logo__image">
+					</a>
+					<div class="footer__info info-footer">
+						<div class="info-footer__item info-footer__item_heading">Trade with financial thinking</div>
+						<div class="info-footer__item info-footer__item_code">Registry Code – 14731902</div>
+						<div class="info-footer__item info-footer__item_licence">Licence Number – FVT000475
+						</div>
+						<address class="info-footer__item info-footer__item_address">Osmussaare tn 8, Lasnamäe Linnaosa,
+							Harju Maakond, 13811, Tallinn, Estonia</address>
+					</div>
+
+
+					<ul class="footer__social social-list">
+						<li class="social-list__item" data-popup="#popupWarning">
+							<a href="#" class="social-list__link _icon-fb"></a>
+						</li>
+						<li class="social-list__item" data-popup="#popupWarning">
+							<a href="#" class="social-list__link _icon-youtube"></a>
+						</li>
+						<li class="social-list__item" data-popup="#popupWarning">
+							<a href="#" class="social-list__link _icon-inst"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__inner">
+					<div class="footer__alert-heading">Risk warning</div>
+					<p class="footer__alert-text">The financial products offered via this website include digitals, contracts for difference (CFDs), and other complex derivatives and financial products. Trading options may not be suitable for everyone. Trading CFDs carries a high level of risk since leverage can work both to your advantage and disadvantage. As a result, the products offered on this website may not be suitable for all investors because of the risk of losing all of your invested capital. You should never invest money that you cannot afford to lose, and never trade with borrowed money. Before trading in the complex financial products offered, please be sure to understand the risks involved and learn about Secure and responsible trading.
+
+					</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__content_bg_color_blue">
+				<button data-close type="button" class="popup__close"></button>
+				<div class="first-screen__content zero-block">
+					<div class="first-screen__element zero-block__element">
+						0
+						<span>%</span>
+					</div>
+					<div class="zero-block__inner">
+						<h1 class="zero-block__title title">
+							zero <br>
+							deposit fee
+						</h1>
+						<button type="button" class="zero-block__button button-primary">
+							<span class="button-primary__text">START</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popupWarning" aria-hidden="true" class="popup popup_warning">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__content_bg_color_blue">
+				<button data-close type="button" class="popup__close"></button>
+				<p class="popup__text">Sorry but we don't have for you information...</p>
+				<p class="popup__text">Please, try it later!</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220929135240"></script>
+</body>
+
+</html>
